@@ -1,0 +1,95 @@
+/* body{
+    background-image: url()
+} */
+
+#dealersCards{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 98%;
+    height: 25vh;
+    border: solid 2px black;
+    margin: 10px 5px;
+}
+
+#playersCards{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 98%;
+    height: 25vh;
+    border: solid 2px black;
+    margin: 10px 5px;
+}
+
+.actions{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+}
+
+.playButtons{
+    margin: 10px 20px;
+    /* border: blue solid; */
+    /* display: flex;
+    align-self: center; */
+}
+
+.betting{
+    margin: 10px 20px;
+    /* border: yellow solid; */
+    /* display: flex;
+    align-self: center; */
+}
+#bettingStatus{
+    color: red;
+}
+.betStatusColor{
+    color: royalblue !important;
+}
+
+#status{
+    text-align: center;
+    font-size: 20px;
+}
+
+.dealersCount{
+    text-align: center;
+}
+
+.playersCount{
+    text-align: center;
+}
+
+h1{
+    text-align: center;
+    margin: 10px 0px;
+}
+
+button{
+    text-align: center;
+    background-color: olivedrab;
+    font-size: 20px;
+    margin: auto auto;
+}
+
+button{
+    text-align: center;
+    background-color: olivedrab;
+    font-size: 20px;
+    margin: auto auto;
+}
+
+.card{
+    display: flex;
+    height: 155px;
+    width: 100px;
+    padding: 5px 5px;
+}
+
+/* body{
+    background-image: url("./img/cards/king_of_clubs.png")
+} */

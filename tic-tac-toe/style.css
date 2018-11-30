@@ -1,0 +1,48 @@
+body{
+    background-color: cornflowerblue;
+}
+
+.board{
+    width: 600px;
+    height: 500px;
+    margin: 0 25%;
+    border-style: solid;
+    border-width: 6px;
+}
+
+.row{
+    margin-left: 0.2px;
+    margin-top: 0.2px;
+    width: 100%;
+    height: 33%;
+}
+
+.node{
+    display: inline-block;
+    height: 100%;
+    width: 32.2%;
+    border-style: dashed;
+    border-width: 2px;
+}
+
+.oIcon{
+    background-image: url("./img/O.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 80%;
+}
+
+.xIcon{
+    background-image: url("./img/X.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 80%;
+}
+h1{
+    text-align: center;
+    /* margin: 0px; */
+}
+
+h4{
+    text-align: center;
+}
