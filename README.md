@@ -4,9 +4,9 @@ First project in GA's Web Development Immersive
 ## Links to games: 
 
 ### Blackjack 
-"#" 
+https://arfajraa.github.io/wdi-project1/blackjack/landing.html
 ### Tic-Tac-Toe 
-"#" 
+https://arfajraa.github.io/wdi-project1/tic-tac-toe/index.html
 
 ## Technologies used 
 * HTML 
