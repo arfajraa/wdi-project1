@@ -8,44 +8,79 @@
     <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
         crossorigin="anonymous"></script>
     <script src="main.js"></script>
-    <link rel="stylesheet" type="text/css" href="https://csshake.surge.sh/csshake.min.css">
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" type="text/css" href="style/csshake.min.css">
+    <link rel="stylesheet" href="style/style.css" />
     <title>Raed's blackjack</title>
 </head>
 
-<body>
-    <h1>Blackjack</h1>
-    <p id="status" class="shake-slow shake-constant shake-constant--hover"></p>
-    <div id="dealersCards"></div>
-    <div class="dealersCount">
-        <p id="dealersValue" hidden>Value of dealer's hand:</p>
+<body id="indexBody">
+    <div id="header">
+        <div id="musicdiv"><button id="music-control">Play Music ♪♪</button></div>
+        <div id="h1div">
+            <!-- <h1>Blackjack</h1> -->
+            <img id="blackjackSign" src="./img/blackjack_sign.jpg" alt="BLACKJACK SIGN">
+        </div>
     </div>
-    <div id="playersCards"></div>
+
+    <p id="status" class="shake-slow shake-constant shake-constant--hover"></p>
+    <div style="display: flex; justify-content: center">
+        <div id="dealersCards"></div>
+    </div>
+
+    <div class="dealersCount">
+        <p id="dealersValue" class="val" hidden>Value of dealer's hand:</p>
+    </div>
+    <div style="display: flex; justify-content: center">
+        <div id="playersCards"></div>
+    </div>
+
     <div class="playersCount">
-        <p id="playersValue" hidden>Value of your hand:</p>
+        <p id="playersValue" class="val" hidden>Value of your hand:</p>
     </div>
 
     <div class="actions">
-        <div class="playButtons">
-            <button id="hit" hidden>Hit</button>
-            <button id="stand" hidden>Stand</button>
-            <button id="deal">Deal</button>
+        <div class="playerActions">
+            <button class="playerButton" id="hit" hidden>Hit</button>
+            <button class="playerButton" id="stand" hidden>Stand</button>
+            <button class="playerButton" id="deal">Deal</button>
         </div>
         <div class="betting">
 
-            <div class="betting"> <label>Your bet: </label> <input id="bet" type="number" value="2" min=0 max=100000> </div>
+            <div class="betting"> <label>Your bet: </label> <input id="bet" type="number" value="1" min=0 max=100000>
+            </div>
             <div class="betting"> <label>Your funds: $</label> <label id="funds"></label></div>
             <div class="betting"> <label id="bettingStatus">Please place your bet.</label> </div>
 
         </div>
 
-        <div>
-                <button class="playButtons" id="shuffle">Reshuffle</button>
+        <div class="playerActions">
+            <button class="playButtons" class="playerButton" id="reshuffle">Reshuffle Deck</button>
         </div>
-        
-    </div>
-    <p id="status"></p>
 
+    </div>
+    <img id="cardsImg" src="./img/editedFolded.png" alt="cardpeak">
+
+    <audio id="backgroundMusic" controls loop hidden>
+        <source src="audio/kygo-id-ultra-music-festival-anthem.mp3" type="audio/mp3">
+    </audio>
+    <audio id="hit1">
+        <source src="audio/hit1.wav" type="audio/wav">
+    </audio>
+    <audio id="hit2">
+        <source src="audio/hit2.wav" type="audio/wav">
+    </audio>
+    <audio id="hit3">
+        <source src="audio/hit3.wav" type="audio/wav">
+    </audio>
+    <audio id="hit4">
+        <source src="audio/hit4.wav" type="audio/wav">
+    </audio>
+    <audio id="dealCard">
+        <source src="audio/dealCard.wav" type="audio/wav">
+    </audio>
+    <audio id="shuffle">
+        <source src="audio/shuffle.wav" type="audio/wav">
+    </audio>
 
 </body>
 

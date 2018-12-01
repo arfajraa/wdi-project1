@@ -1,0 +1,186 @@
+#indexBody{
+    /* background-image: url() */
+    background-color: #000;
+    color: white;
+}
+
+#landingBody{
+    background-image: url("../img/rsz_backdrop.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: #000;
+    margin: 0px auto;
+    display: flex;
+    justify-content: center;
+}
+
+#landingDiv{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#welcome{
+    /* display:block; */
+    height: 300px;
+}
+
+#startButton{
+    padding: 10px 5px;
+    text-align: center;
+    width: 200px;
+    font-size: 20px;
+    background-color: rgb(167, 18, 35);
+    cursor:pointer;
+    color:white;
+    border-radius: 10px;
+}
+#startButton:hover{
+    background-color: gold;
+    color: black;
+}
+
+#header{
+    display: block;
+    /* justify-content: center; */
+}
+
+/* h1{
+    margin: 10px 0px;
+} */
+
+#blackjackSign{
+    height: 15vh;
+}
+
+#h1div{
+    text-align: center;
+}
+
+#musicdiv{
+    text-align: left;
+    justify-self: center;
+}
+
+#music-control{
+    background-color: #efefef;
+    border-radius: 5px;
+}
+
+#dealersCards{
+    background-image: url("../img/dealerField.jpg");
+    /* background-image: url("../img/blackjack_sign.jpg"); */
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-self: center;
+    flex-wrap: wrap;
+    width: 80%;
+    height: 18vh;
+    border: solid 2px black;
+    margin: 10px 20px;
+}
+
+#FU{
+    display: flex;
+    justify-content: center;
+    background-color: yellow;
+    margin: 0px;
+    text-align: center; 
+}
+
+#playersCards{
+    background-image: url("../img/playerField.jpg");
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-self: center;
+    flex-wrap: wrap;
+    width: 80%;
+    height: 18vh;
+    border: solid 2px black;
+    margin: 10px 20px;
+}
+
+.actions{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+}
+
+.playerActions{
+    margin: 10px 20px;
+    /* border: blue solid; */
+    /* display: flex;
+    align-self: center; */
+}
+
+.betting{
+    margin: 10px 20px;
+    /* border: yellow solid; */
+    /* display: flex;
+    align-self: center; */
+}
+#bettingStatus{
+    color: #F90104;
+}
+.betStatusColor{
+    color: #1367EC !important;
+}
+
+#status{
+    text-align: center;
+    font-size: 20px;
+}
+#cardsImg{
+    position:absolute;
+    bottom: 0;
+    right: 0;
+    height: 38vh;
+    z-index: -1;
+}
+
+.dealersCount{
+    text-align: center;
+}
+
+.playersCount{
+    text-align: center;
+}
+
+.val{
+    margin-top: 2px;
+    margin-bottom: 5px;
+}
+
+#reshuffle{
+    padding: 5px 5px;
+    font-size: 16px;
+    background-color: #FFCD3E;
+    border-radius: 5px;
+    cursor:pointer;
+}
+
+.playerButton{
+    /* padding: 5px 5px; */
+    text-align: center;
+    background-color: #245639;
+    font-size: 20px;
+    margin: auto auto;
+    border-radius: 5px;
+    cursor:pointer;
+}
+
+.card{
+    display: flex;
+    height: 92%;
+    /* width: 100px; */
+    padding: 5px 5px;
+}
+
+/* body{
+    background-image: url("./img/cards/king_of_clubs.png")
+} */
