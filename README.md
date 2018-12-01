@@ -1,20 +1,20 @@
 # wdi-project1
 First project in GA's Web Development Immersive
 
-## Links to games: 
+## Links to Games: 
 
 ### Blackjack 
 https://arfajraa.github.io/wdi-project1/blackjack/landing.html
 ### Tic-Tac-Toe 
 https://arfajraa.github.io/wdi-project1/tic-tac-toe/index.html
 
-## Technologies used 
+## Technologies Used 
 * HTML 
 * CSS 
 * Javascript 
 * jQuery 
 
-## Approach taken 
+## Approach Taken 
 * Take it step by step. 
 * Break the objective into small manageable chunks. 
 * Try to make contained functions that have specific purposes.
@@ -22,9 +22,9 @@ https://arfajraa.github.io/wdi-project1/tic-tac-toe/index.html
 ## Installation 
 No installation needed
 
-## Unsolved problems
+## Unsolved Problems
 None.
 
-## Possible additions
+## Possible Additions
 * Functionality to split cards and double down.
 * Functionality to allow more than one player.
