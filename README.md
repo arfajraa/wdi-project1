@@ -6,7 +6,7 @@ First project in GA's Web Development Immersive
 ### Blackjack 
 * https://arfajraa.github.io/wdi-project1/blackjack/landing.html
 #### Summary of the game:
-Standard Blackjack functionality, the goal is to get your hand to 21 or as close to it as possible without going over. Number cards value is the same as their rank. The picture cards' value is 10. Aces evaluate to either 11 or 1 depending on the value of the cards in hand.
+Standard Blackjack functionality, the goal is to get the value of the cards in your hand to 21 or as close to it as possible without going over. Number cards value is the same as their rank. The picture cards' value is 10. Aces evaluate to either 11 or 1 depending on the value of the cards in hand.
 ### Tic-Tac-Toe 
 * https://arfajraa.github.io/wdi-project1/tic-tac-toe/index.html
 #### Summary of the game:
