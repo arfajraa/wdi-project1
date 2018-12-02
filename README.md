@@ -32,3 +32,9 @@ No installation needed
 ## Possible Additions
 * Functionality to split cards and double down.
 * Functionality to allow more than one player.
+
+## Resources
+* Sweet Alert: https://sweetalert.js.org/
+* CsShake: https://elrumordelaluz.github.io/csshake/
+* jQuery API: https://api.jquery.com/
+* W3Schools: https://www.w3schools.com/
