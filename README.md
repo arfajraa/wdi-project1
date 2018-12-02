@@ -27,7 +27,7 @@ Basic Tic-Tac-Toe 3x3 functionality. Players can enter their names and the first
 No installation needed
 
 ## Unsolved Problems
-None.
+* dealer cards pushed in the hand with a delay.
 
 ## Possible Additions
 * Functionality to split cards and double down.
